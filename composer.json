@@ -1,5 +1,5 @@
 {
-  "name": "beechit/news-ttnewsimport",
+  "name": "intera-typo3-extension/news-ttnewsimport",
   "type": "typo3-cms-extension",
   "description": "Importer of ext:tt_news items to ext:news",
   "homepage": "https://github.com/fsaris/news_ttnewsimport",
@@ -8,6 +8,9 @@
   "require": {
     "typo3/cms-core": ">=6.2.4,<9.5.99",
     "georgringer/news": ">=3.0.0"
+  },
+  "replace": {
+    "beechit/news-ttnewsimport": "self.version"
   },
   "autoload": {
     "psr-4": {
